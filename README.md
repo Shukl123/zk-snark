@@ -25,10 +25,14 @@ A B X Y Q
 5.Call the verifyProof() method on the verifier contract and assert output is true.
 
 ## Steps
-Step 1: Install the required dependencies: npm install
-Step 2: Update Hardhat Configuration File
-Step 3: Compile the Contract: npx hardhat compile
-Step 4: Deploy the Contract: npx hardhat run scripts/deploy.ts
+Step 1: Install the required dependencies: npm install.
+
+Step 2: Update Hardhat Configuration File.
+
+Step 3: Compile the Contract: npx hardhat compile.
+
+Step 4: Deploy the Contract: npx hardhat run scripts/deploy.ts.
+
 Step 5: Verify the Deployment:
 After successfully deploying the contract, the script deploy.ts should print "true" in the terminal if the deployment is successful. If you encounter any issues, make sure to review your contract code and the Hardhat configuration.
 
